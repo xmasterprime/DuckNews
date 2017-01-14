@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">DuckNews</string>
+
+    <!--Titles-->
+    <string name="recent_news">Recent News</string>
+    <string name="search_news">Search News</string>
+
+    <!--Buttons-->
+    <string name="reset_btn">Reset</string>
+    <string name="submit_btn">Submit</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Search Settings</string>
+
 </resources>
