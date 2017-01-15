@@ -15,4 +15,9 @@
     <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
     <string name="settings_title">Search Settings</string>
 
+    <!-- Strings For Maxiumum Number of Search Results Preference [CHAR LIMIT=30] -->
+    <string name="settings_number_label">Max number of search results</string>
+    <string name="settings_number_key" translatable="false">min_magnitude</string>
+    <string name="settings_number_default" translatable="false">10</string>
+
 </resources>

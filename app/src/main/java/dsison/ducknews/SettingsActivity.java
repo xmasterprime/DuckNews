@@ -1,9 +1,5 @@
 package dsison.ducknews;
 
-/**
- * Created by dsiso on 1/14/2017.
- */
-
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.support.v7.app.AppCompatActivity;
@@ -18,5 +14,10 @@ public class SettingsActivity extends AppCompatActivity {
 
     public static class SearchPreferenceFragment extends PreferenceFragment {
 
+        @Override
+        public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            addPreferencesFromResource(R.xml.settings_main);
+        }
     }
 }
